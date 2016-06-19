@@ -1,0 +1,93 @@
+body{
+    font-size: 12px;
+    color:#5d5d5d;
+}
+#banner{
+    height:400px;
+    position: relative;
+    background:url("http://www.yangqq.com/web/30/images/bg.jpg");
+}
+
+nav{
+    background:#ccc;
+    height:50px;
+}
+
+nav ul{
+    list-style: none;
+    margin:0;
+}
+
+nav ul li{
+    display:inline-block;
+    line-height: 50px;
+}
+
+nav ul li a{
+    line-height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+}
+
+#banner p{
+    margin:0;
+    display: block;
+    max-width: 400px;
+}
+
+.text1{
+    position: absolute;
+    bottom:0;
+}
+
+.hua{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#first{
+    width: 100%;
+    background: #559664;
+    padding: 30px 0;
+    overflow: hidden;
+    border-bottom: #226039 1px solid;
+}
+
+.one{
+    list-style: none;
+    width:1000px;
+    overflow: hidden;
+    background: white;
+}
+
+.one li{
+    list-style: none;
+    float:left;
+    position:relative;
+}
+
+.one li a{
+    text-decoration: none;
+    font-size: 7px;
+    color:#5d5d5d;
+}
+
+.one li figcaption {
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.text_a {
+    width: 220px;
+    line-height: 24px;
+    padding: 0px 20px;
+}
+
+.text_b {
+    width: 164px;
+    line-height: 24px;
+    padding: 40px 20px;
+}
